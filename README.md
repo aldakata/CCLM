@@ -25,12 +25,15 @@ baseline experiments. We further analyze the effectiveness of the proposal
 using two different metrics - Noise Division Accuracy and Classiness.
 
 **Illustration**
+
 <img src="./img/framework.png">
 
 **Code**
+
 Please note that CCLM proposes a very simple change in any LNL codebase. In this repository we demonstrate how to undertake this procedure with the base code of DivideMix and C2D. All the new (relevant) code is in *class_conditional_utils.py*. Finally, one has to call *class_conditional_utils.py/ccgmm_codivide()* from the *eval_train()* function accordingly.
 
 **Experiments**
+
 To run the experiments, choose a baseline, {C2D, DivideMix}
 *DivideMix*
 
@@ -51,4 +54,5 @@ Note  that the argument `--cc` will choose the option class-conditional, otherwi
 
 
 **License**
+
 This project is licensed under the terms of the MIT license.
