@@ -37,7 +37,7 @@ To run the experiments, choose a baseline, {C2D, DivideMix}
 ```bash
 $ cd DivideMix
 $ mkdir checkpoint
-$  python Train_{dataset_name}.py --data_path path-to-your-data --cc
+$ python Train_{dataset_name}.py --data_path path-to-your-data --cc
 ```
 For more information please refer to the [DivideMix repository](https://github.com/LiJunnan1992/DivideMix)
 
